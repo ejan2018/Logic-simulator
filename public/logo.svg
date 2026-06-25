@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 500 250" xml:space="preserve">
+<defs>
+  <style type="text/css">
+    .glow-trace { fill: none; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; animation: rainbowGlow 10s linear infinite; }
+    .glow-node { animation: rainbowFill 10s linear infinite; }
+    .glow-text { font-family: 'Segoe UI', -apple-system, Roboto, sans-serif; font-weight: 800; font-size: 24px; letter-spacing: 2px; animation: rainbowFill 10s linear infinite; }
+    @keyframes rainbowGlow {
+      0%, 100% { stroke: #00f2fe; filter: drop-shadow(0px 0px 4px #00f2fe); }
+      20% { stroke: #4facfe; filter: drop-shadow(0px 0px 4px #4facfe); }
+      40% { stroke: #00ff87; filter: drop-shadow(0px 0px 4px #00ff87); }
+      60% { stroke: #fed373; filter: drop-shadow(0px 0px 4px #fed373); }
+      80% { stroke: #ff0844; filter: drop-shadow(0px 0px 4px #ff0844); }
+    }
+    @keyframes rainbowFill {
+      0%, 100% { fill: #00f2fe; filter: drop-shadow(0px 0px 3px #00f2fe); }
+      20% { fill: #4facfe; filter: drop-shadow(0px 0px 3px #4facfe); }
+      40% { fill: #00ff87; filter: drop-shadow(0px 0px 3px #00ff87); }
+      60% { fill: #fed373; filter: drop-shadow(0px 0px 3px #fed373); }
+      80% { fill: #ff0844; filter: drop-shadow(0px 0px 3px #ff0844); }
+    }
+  </style>
+</defs>
+<g id="Simulator-Logo" transform="translate(0, 10)">
+  <path class="glow-trace" d="M 170,40 L 190,40 C 205,40 215,50 215,60 C 215,70 205,80 190,80 L 170,80 Z" />
+  <path class="glow-trace" d="M 170,120 L 190,120 C 205,120 215,130 215,140 C 215,150 205,160 190,160 L 170,160 Z" />
+  <path class="glow-trace" d="M 170,60 L 150,60 L 150,90 L 135,90 L 131,80 L 127,110 L 123,70 L 119,100 L 115,90 L 100,90" />
+  <path class="glow-trace" d="M 170,140 L 150,140 L 150,110 L 135,110" />
+  <path class="glow-trace" d="M 215,60 L 235,60 L 265,95 L 235,125 L 210,100 L 235,75 L 255,95" />
+  <path class="glow-trace" d="M 215,140 L 235,140 L 285,90 L 310,115 L 285,140 L 265,120" />
+  <circle class="glow-node" cx="255" cy="95" r="3.5" />
+  <circle class="glow-node" cx="265" cy="120" r="3.5" />
+  <path class="glow-trace" d="M 310,60 C 315,60 325,40 345,40 C 360,40 365,50 370,60 C 365,70 360,80 345,80 C 325,80 315,60 310,60 Z" />
+  <path class="glow-trace" d="M 310,140 C 315,140 325,120 345,120 C 360,120 365,130 370,130 C 365,140 360,150 345,150 C 325,150 315,140 310,140 Z" />
+  <path class="glow-trace" d="M 385,90 L 385,110 L 405,100 Z" />
+  <circle class="glow-trace" cx="410" cy="100" r="3" />
+  <path class="glow-trace" d="M 370,60 L 390,60 L 390,80 L 380,80 L 376,75 L 372,95 L 368,65 L 364,85 L 360,80 L 345,80" />
+  <path class="glow-trace" d="M 370,130 L 390,130 L 390,115" />
+  <path class="glow-trace" d="M 413,100 L 430,100" />
+  <text x="250" y="210" text-anchor="middle" class="glow-text">LOGIC GATE SIMULATOR</text>
+</g>
+</svg>
